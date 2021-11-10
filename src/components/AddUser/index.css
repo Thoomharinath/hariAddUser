@@ -1,0 +1,150 @@
+/* Write your CSS here */
+.page-container {
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1920px;
+  border-radius: 1px;
+  background-color: #e5e5e5;
+  display: flex;
+  align-items: flex-start;
+  padding: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .page-container {
+    min-height: 100vh;
+    width: 100%;
+    max-width: 1920px;
+    border-radius: 1px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 25px;
+  }
+}
+.header {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.user-form-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 25px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 60%;
+  justify-content: flex-start;
+}
+.add-user-head {
+  width: 74px;
+  height: 21px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  margin-left: 25px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.input {
+  min-width: 381px;
+  height: 40px;
+  background: #ededed;
+  border-radius: 10px;
+  border-width: 0px;
+  margin: 15px;
+  outline: none;
+}
+
+.label-input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.label-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #808080;
+}
+.submitBtn {
+  width: 381px;
+  height: 60px;
+  background: #a2e0ff;
+  border-radius: 10px;
+  border-width: 0px;
+  align-self: flex-end;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .label-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+  }
+
+  .input {
+    height: 40px;
+    min-width: 290px;
+    background: #ededed;
+    border-radius: 10px;
+    border-width: 0px;
+    margin: 15px;
+    outline: none;
+  }
+
+  .label-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #808080;
+    margin-left: 10px;
+  }
+  .submitBtn {
+    width: 291px;
+    height: 60px;
+    background: #a2e0ff;
+    border-radius: 10px;
+    border-width: 0px;
+    align-self: flex-start;
+    margin-right: 10px;
+  }
+}
+
+.error-msg {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  /* identical to box height */
+  color: #ffa2a2;
+  margin: 0px;
+  margin-left: 20px;
+}

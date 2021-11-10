@@ -1,0 +1,48 @@
+.inner-header {
+  height: 80px;
+  background: #ffffff;
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  max-width: 1505px;
+  padding: 15px;
+}
+
+.time {
+  width: 231px;
+  height: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 12px;
+  color: #000000;
+}
+
+.user-icon-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.greet-user {
+  width: 120px;
+  height: 21px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: #646464;
+}
+.icon {
+  height: 66px;
+  width: 66px;
+  margin-left: 15px;
+}
